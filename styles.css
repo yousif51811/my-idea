@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#chatArea {
+  margin-top: 20px;
+}
+
+#chatMessages {
+  list-style-type: none;
+  padding: 0;
+}
+
+#chatMessages li {
+  margin-bottom: 10px;
+}
+
+input[type="text"], button#sendMessageButton {
+  margin-top: 10px;
+  padding: 8px;
+}
+
+button#sendMessageButton {
+  background-color: #008CBA;
+}
+
+button#sendMessageButton:hover {
+  background-color: #005f78;
+}
